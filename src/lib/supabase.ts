@@ -43,7 +43,7 @@ export async function getCurrentUser() {
 export async function signInWithWechat() {
   const supabase = createClient()
   const { data, error } = await supabase.auth.signInWithOAuth({
-    provider: 'wechat',
+    provider: 'wechat' as any,
   })
   return { data, error }
 }
