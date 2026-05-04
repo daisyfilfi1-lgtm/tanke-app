@@ -62,7 +62,7 @@ export default function LoginPage() {
         return
       }
       if (data?.user) {
-        router.push('/dashboard')
+        router.push('/projects')
       }
     } catch {
       setError('注册失败，请稍后重试')

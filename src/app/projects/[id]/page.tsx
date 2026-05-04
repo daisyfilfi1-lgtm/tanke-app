@@ -106,7 +106,7 @@ export default async function ProjectDetailPage(props: {
       {/* 开始项目按钮 */}
       <div className="mt-8 text-center space-y-3">
         <Link
-          href="/dashboard/current/day/1?projectId=xxx&week=1&day=1"
+          href={`/dashboard/current/day/1?projectId=${id}&week=1&day=1`}
           className="inline-block rounded-xl bg-indigo-600 px-8 py-3 text-base font-medium text-white shadow-lg transition-all hover:bg-indigo-700"
         >
           开始这个项目
