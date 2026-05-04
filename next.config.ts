@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Netlify 部署配置 */
+  output: "standalone",
 };
 
 export default nextConfig;
