@@ -1,0 +1,23 @@
+{
+  "id": "pyp-001",
+  "title": "我的身体说明书",
+  "weeks": 4,
+  "daysPerWeek": 5,
+  "ageRange": { "min": 3, "max": 6 },
+  "themes": ["身体", "健康", "认知"],
+  "difficulty": 1,
+  "spaceType": ["indoor"],
+  "weekFrames": [
+    {
+      "week": 1,
+      "theme": "认识我的身体",
+      "days": [
+        { "day": 1, "type": "action", "coreAction": "画身体轮廓图", "estimatedMinutes": [15, 25], "materials": ["大画纸", "彩笔"], "substitutes": ["报纸拼贴"], "difficultyFactors": ["精细动作"], "safetyCheck": null },
+        { "day": 2, "type": "observe", "coreAction": "观察五官并画出来", "estimatedMinutes": [10, 20], "materials": ["镜子", "画纸", "彩笔"], "substitutes": ["手机自拍"], "difficultyFactors": ["观察力"], "safetyCheck": null },
+        { "day": 3, "type": "record", "coreAction": "数一数身体各部位", "estimatedMinutes": [10, 15], "materials": ["身体图", "贴纸"], "substitutes": ["画圈计数"], "difficultyFactors": ["数数能力"], "safetyCheck": null },
+        { "day": 4, "type": "reflect", "coreAction": "讨论身体部位的功能", "estimatedMinutes": [10, 15], "materials": ["绘本"], "substitutes": ["口头讨论"], "difficultyFactors": ["语言表达"], "safetyCheck": null },
+        { "day": 5, "type": "create", "coreAction": "制作身体部位标签", "estimatedMinutes": [15, 25], "materials": ["卡纸", "胶水", "彩笔"], "substitutes": ["便签纸"], "difficultyFactors": ["识字量"], "safetyCheck": null }
+      ]
+    }
+  ]
+}
